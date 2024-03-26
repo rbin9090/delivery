@@ -1,0 +1,7 @@
+echo "# delivery" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M branch
+git remote add origin https://github.com/rbin9090/delivery.git
+git push -u origin branch
